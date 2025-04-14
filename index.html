@@ -1,0 +1,1253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Portfolio of Lloyd Jefferson, an experienced Fullstack developer specializing in creating unique and functional websites that reflect each client's individuality."
+    />
+    <meta
+      name="keywords"
+      content="Fullstack developer, web development, frontend, backend, HTML, CSS, JavaScript, React, Node.js, developer portfolio"
+    />
+
+    <link rel="icon" type="image/svg+xml" href="/js_114_tymur-lykho/favicon.svg" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>CodeCrafters Portfolio</title>
+
+    <script type="module" crossorigin src="/js_114_tymur-lykho/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/js_114_tymur-lykho/assets/vendor-wCG0WGog.js">
+    <link rel="stylesheet" crossorigin href="/js_114_tymur-lykho/assets/vendor-D2Xkpl5Y.css">
+    <link rel="stylesheet" crossorigin href="/js_114_tymur-lykho/assets/index-X23FoiJC.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container header-container">
+    <a href="./index.html" class="header-img-box">
+      <img
+        class="header-image"
+        srcset="data:image/webp;base64,UklGRpoCAABXRUJQVlA4WAoAAAAQAAAAKwAAKwAAQUxQSI4AAAABZ2CQbeTgjeBmcG/0ERHRp4ydwk21bcty47ARwL4AFHGIwOoQgBC+/RH+DUZ3+1r99qxsEf2fACC/+dqQ+2ocr/nYiLO4Z2sj14GOFabgpmhgfop9fGqluaumcNcMPxrnp3HtX/yr2X80zlPTuGgqc03G/BT7OHdFA7qKNLCLVgcw7yhO3INZ/8K4vRgAVlA4IOYBAADwCQCdASosACwAPp1Kn0uwCInKACwE4ljAMAvbjbsilh43NQP9XOpL6JqTtZo8y4hDJs9a8NZURjUcdtyfeGeKr7QbrCSUUP5O8rkk06dcd5QC8dzshzQAAP78Es5qDXucGN9Sgqi/Q1xgwHMk5fnSZinduipypSfMfoOc89Y5g9Wpt47U6DflOr10jL7h6qM0Sb+QjPSAlfCiLmp5ivDTw++gQYub//ogPhwuYGP/nQ1YYd4sEIsdKxQp7ZCJwg7qwO52xDwf87Gg34fISi0nvPtYuVbOW/jjmfk6ok10VpR/Er8/ATnSWpVaUe3J/q/2Wi4yL9hr/ygr5q8ATQJIeJ+SCxRkT+YzxaePHzuF+gOJ61mxzHnKlWrWWXPW3d2MYu+kSefG3DLNVdI/NAjTEb2dhOHouAmtyKPuyxuy6878gkNwNwgVZKGDP2f28wNwpn/gczXrE01n2ml4LZfWHaxep3wm6iB53KlMUR44ddqSlcclZ2+L+VfP5lkB/v2Pp0YFYV/K/KPETbOCpWEG2mbnfMhsMt9oqkZDkT15TUS9QQAHDBq/016GtuTmPkguehoqgjaqdiwaCibmCX8Uys2Usclwrb5dPk97PjsFDoysZ5t5gQXeSUa5jztYBi5LzuHAAAA= 1x, data:image/webp;base64,UklGRlQFAABXRUJQVlA4WAoAAAAQAAAAVwAAVwAAQUxQSOMAAAABgFXbbt3oQhAEQQqDionFoGGQMugwMARDEARBUN953f+JiAnAerHrPbKOHP1qir2l9TrpMN1DWtaZF92sZZ29baOjCIZucMmimNOqVjTbilZE209TUb38oMkl9VsU2fGlFV3/oMU35W0hVA5Ai3EKYJTKgcGpQ4u0GCubWc2d1V+wimKdtP4xnLSCVdxZ9ZnVbKxMWCk6pwE4JwMkKSkAZ7QAgCQhfYPzcXwebAJfNbmkfoNxmfCrM3H87jwca6fkkIb1GgyGYlM/XTq21tup0gU7qo2zdBfsrTb3OFTGfTbBegBWUDggSgQAAFAVAJ0BKlgAWAA+nUabSqYmLKMoFVwgsBOJZwDQxM221SNHZcGOquUb3otZ1PrD2BP1q6u3otfs6eI5TN36qIh9MpSwsg8YfGceWy43h9FfqkL3jLrJYFeklM/4J8QrOpav8losaH9/20mD2Yi3qeoQf7b8rxGkWuasym55MsZlABP097559bVz1m3Zp8ub72LBW37O6q7wlxn7GigwfNl60uWE3FT0zq8n6moqcPirjFGQAP73TjOx6Feb7N3rMihcTALKVElPrnG5d0xUio+nnF+xp/kKP9MXiC/3b0u/l2VMh5ZzPK5Vmx2LBw6ztzRanowhN8IW0hceH4z0GCjHk5FVMvCYwy2T3E20nXnMr8AKTvqXlIPm1qSfaFvQODImetubEDVM8VcLjEPynGCuvCtwWVaSDu5zYMB4Fz9gDoill3CZ7YLznH6jfDhY4UagqN5++4X3XJFBpeFP514cX56XQwg68jszfbYqZyx4DGTodbGNjVHj7I5oTwV3y6Rp3aiR+p6xbj06NIvDT22cFPc97b3DBysn22Xkp2CX4WrmMOR6RuGKHTGLY2BmwkAS9eeBKjddPz7G5TUhZ5vMRr8socyIyK9p2VJlAZvWr8EiyZN+J7cxGQ+MGXQMf9oInMWvpcCJhguJmdeXr6HfIeJM5AWsX4+WvALpaRwfng2pNTCPET7+SMfZqZXVByav10pm2V0RqGSgF5PzqRkeTN6dJsMHdasiv8TtcyKgxF5npi1uL+MnkLwCX2NQj0O81mxdH3zsOrqxStu1YZQ9V8OzhbnHAGQ8789gVdv/LlXLAYDfF26ybUB2/7TjwShuwSKdY9xoPP3F8QYyL6h/J9i97ORhjuGv1UqgpEaMv6O7GA3mW3ADUiEH44LfUFfbG0aeOP60KzepM/253+hGRfmnH9TbYnjM1SUh+4YOVVb9rONLoLbUmphBF7AVY0b/oK6qa+AfygW0IIB/58vLWCwl019u/I9TGtgcmj4Zr8WK6GTv6myFET4eB00XLvz/SmuGQzN4sM8V6oJnIhsfzFvBN6bB/1KFwtOAdOO9i8II5irODL0a/YXL+nYFb/w0X6FblSZ/9co18rhH8e1qYVWAnvhaoz1J2INL0Kue1V26KY2JP0vTt29FtK3rbr4QsARX5Z30a6GL51TlZ+y0uD4fnR91thsNiMWgOUkQXCWPuRnehOXgz7JJtMePisb6oV8lL/a/KVSvq7HYGImG3jBKxW1aCml2oAbIeElKEqSG6HI9ylwZCWP4dJfNaixgEUNsApeBSV+LGQvnjAaAJH/hKACRsqUW5BRHv0+fC3R+1ieSbGKIXCfsonlqY1VR//SN4BmN2frMC5D/VxW/yYlun07E55ytwfWdemyUwjgQqNX98WSKz47rzGmooeyX42TNplesLw9TKF+yqUWNOIfPm01OAc2MbKtFrK4gCpOJzl5Y72OAAA== 2x"
+        src="data:image/webp;base64,UklGRpoCAABXRUJQVlA4WAoAAAAQAAAAKwAAKwAAQUxQSI4AAAABZ2CQbeTgjeBmcG/0ERHRp4ydwk21bcty47ARwL4AFHGIwOoQgBC+/RH+DUZ3+1r99qxsEf2fACC/+dqQ+2ocr/nYiLO4Z2sj14GOFabgpmhgfop9fGqluaumcNcMPxrnp3HtX/yr2X80zlPTuGgqc03G/BT7OHdFA7qKNLCLVgcw7yhO3INZ/8K4vRgAVlA4IOYBAADwCQCdASosACwAPp1Kn0uwCInKACwE4ljAMAvbjbsilh43NQP9XOpL6JqTtZo8y4hDJs9a8NZURjUcdtyfeGeKr7QbrCSUUP5O8rkk06dcd5QC8dzshzQAAP78Es5qDXucGN9Sgqi/Q1xgwHMk5fnSZinduipypSfMfoOc89Y5g9Wpt47U6DflOr10jL7h6qM0Sb+QjPSAlfCiLmp5ivDTw++gQYub//ogPhwuYGP/nQ1YYd4sEIsdKxQp7ZCJwg7qwO52xDwf87Gg34fISi0nvPtYuVbOW/jjmfk6ok10VpR/Er8/ATnSWpVaUe3J/q/2Wi4yL9hr/ygr5q8ATQJIeJ+SCxRkT+YzxaePHzuF+gOJ61mxzHnKlWrWWXPW3d2MYu+kSefG3DLNVdI/NAjTEb2dhOHouAmtyKPuyxuy6878gkNwNwgVZKGDP2f28wNwpn/gczXrE01n2ml4LZfWHaxep3wm6iB53KlMUR44ddqSlcclZ2+L+VfP5lkB/v2Pp0YFYV/K/KPETbOCpWEG2mbnfMhsMt9oqkZDkT15TUS9QQAHDBq/016GtuTmPkguehoqgjaqdiwaCibmCX8Uys2Usclwrb5dPk97PjsFDoysZ5t5gQXeSUa5jztYBi5LzuHAAAA="
+        alt="logo"
+        width="80"
+        height="80"
+        title="logo"
+      />
+
+      <p class="logo-text">jefferson*</p>
+    </a>
+
+    <nav class="menu-box">
+      <button
+        class="menu-link decoration"
+        type="button"
+        aria-label="Menu button"
+      >
+        Menu
+      </button>
+
+      <ul class="menu-list">
+        <li class="menu-list-item">
+          <a href="#about-me" class="list-item-link">About me</a>
+        </li>
+
+        <li class="menu-list-item">
+          <a href="#benefits" class="list-item-link">Benefits</a>
+        </li>
+
+        <li class="menu-list-item">
+          <a href="#projects" class="list-item-link">Projects</a>
+        </li>
+
+        <li class="menu-list-item">
+          <a href="#faq-section" class="list-item-link">FAQ</a>
+        </li>
+      </ul>
+    </nav>
+
+    <a class="order-btn" href="#work-together">Order the project</a>
+
+    <button class="burger-btn" type="button" aria-label="Mobile menu button">
+      <svg class="icon icon-menu-05 burger-icon" width="28" height="28">
+        <use href="/js_114_tymur-lykho/assets/sprite-Tj9KpC6Y.svg#menu"></use>
+      </svg>
+    </button>
+  </div>
+</header>
+
+
+    <main>
+      <section class="hero">
+  <div class="container">
+    <h1 class="hero-title" style="opacity: 0">
+      Hello. I’m Fullstack developer Lloyd Jefferson.
+    </h1>
+    <ul class="social-icons animate-icons">
+      <li>
+        <a
+          href="https://www.instagram.com/goitclub/"
+          class="social-links"
+          target="_blank"
+        >
+          IG
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.facebook.com/goITclub/"
+          class="social-links"
+          target="_blank"
+        >
+          FB
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.youtube.com/c/GoIT"
+          class="social-links"
+          target="_blank"
+        >
+          YT
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://github.com/tymur-lykho/CodeCrafters-project"
+          class="social-links"
+          target="_blank"
+        >
+          GH
+        </a>
+      </li>
+      <li>
+        <a href="mailto:lloydjefferson@gmail.com" class="social-links-email">
+          lloydjefferson@gmail.com
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="about-me section" id="about-me">
+  <div class="container">
+    <h2 class="visually-hidden">
+      About Lloyd Jefferson – Frontend Developer Portfolio
+    </h2>
+
+    <div class="about-me-section">
+      <p class="about-me-content about-me-introduction">
+        I work with people all over the world to create impressive and
+        <span class="accent-word-red">functional</span>
+        <span class="accent-word-grey">websites</span> that reflect each
+        client's unique personality.
+      </p>
+      <picture>
+        <source
+          srcset="/js_114_tymur-lykho/assets/image-desktop@1x-Ch6b0fAl.webp 1x, /js_114_tymur-lykho/assets/image-desktop@2x-Dd9ZvAk6.webp 2x"
+          media="(min-width: 1440px)"
+          type="image/jpeg"
+        />
+        <source
+          srcset="/js_114_tymur-lykho/assets/image-tablet@1x-BQNqYZ4A.webp 1x, /js_114_tymur-lykho/assets/image-tablet@2x-DzCx_P1-.webp 2x"
+          media="(min-width: 768px)"
+          type="image/jpeg"
+        />
+        <source
+          srcset="/js_114_tymur-lykho/assets/image-mobile@1x-Cju8Pzrv.webp 1x, /js_114_tymur-lykho/assets/image-mobile@1x-Cju8Pzrv.webp 2x"
+          media="(max-width: 767px)"
+          type="image/jpeg"
+        />
+        <img
+          src="/js_114_tymur-lykho/assets/image-mobile@1x-Cju8Pzrv.webp"
+          alt="Lloyd Jefferson working on laptop"
+          class="about-me-img"
+          width="704"
+          height="700"
+        />
+      </picture>
+    </div>
+
+    <ul class="accordion" id="about-me-accordion">
+      <li class="accordion-item active ac">
+        <div class="accordion-line ac-header ac-trigger">
+          <h3 class="accordion-title">About Me</h3>
+          <button
+            class="accordion-header ac-trigger ac-btn"
+            aria-label="Open text about me"
+          >
+            <svg class="ac-btn-icon" width="20" height="20">
+              <use href="/js_114_tymur-lykho/assets/sprite-Tj9KpC6Y.svg#simple-arrow"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="accordion-body ac-panel">
+          <p class="accordion-text ac-text">
+            I am Lloyd Jefferson, a talented programmer with extensive expertise
+            in software development. I have an understanding of different
+            programming languages and technologies, always ready to improve my
+            skills. I always follow the latest trends and look for
+            unconventional, creative solutions to problems. I have a high level
+            of analytical skills and am able to effectively solve even the most
+            difficult tasks encountered on the way.
+          </p>
+          <p class="accordion-text ac-text">
+            Able to work both independently and in a team. I can effectively
+            cooperate with colleagues, exchanging ideas and finding optimal
+            solutions. Professional maturity allows you to calmly cope with
+            challenges and stressful situations, while maintaining a high
+            quality of work. I am always looking for opportunities for
+            self-improvement. I actively study new technologies and practices to
+            stay abreast of the latest innovations. I have a strong
+            understanding of various programming languages, frameworks and
+            architectural concepts that allow me to create efficient and
+            scalable software.
+          </p>
+        </div>
+      </li>
+      <li class="accordion-item active ac">
+        <div class="accordion-line ac-header ac-trigger">
+          <h3 class="accordion-title">Role</h3>
+          <button
+            class="accordion-header ac-trigger ac-btn"
+            aria-label="Open text about my role"
+          >
+            <svg class="ac-btn-icon" width="20" height="20">
+              <use href="/js_114_tymur-lykho/assets/sprite-Tj9KpC6Y.svg#simple-arrow"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="accordion-body ac-panel">
+          <ul class="ac-text">
+            <li class="accordion-list">Frontend development</li>
+            <li class="accordion-list">HeadlessCMS, Wordpress</li>
+            <li class="accordion-list">Blender (enjoy)</li>
+          </ul>
+        </div>
+      </li>
+      <li class="accordion-item active ac">
+        <div class="accordion-line ac-header ac-trigger">
+          <h3 class="accordion-title">Education</h3>
+          <button
+            class="accordion-header ac-trigger ac-btn"
+            aria-label="Open text about my education"
+          >
+            <svg class="ac-btn-icon" width="20" height="20">
+              <use href="/js_114_tymur-lykho/assets/sprite-Tj9KpC6Y.svg#simple-arrow"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel">
+          <ul class="ac-text">
+            <li class="accordion-list">
+              2018 - 2019 / Frontend Development Diploma, GoIT
+            </li>
+            <li class="accordion-list">
+              2019 - 2020 / Advanced Web Development Certificate
+            </li>
+            <li class="accordion-list">
+              2020 - 2022 / Blender Animation Techniques, Udemy
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+
+    <div class="skills" role="region" aria-label="Slider of skills">
+      <div class="swiper" id="skills-swiper">
+        <ul class="swiper-wrapper skills-list">
+          <li class="swiper-slide skills-item"><p>HTML/CSS</p></li>
+          <li class="swiper-slide skills-item"><p>JavaScript</p></li>
+          <li class="swiper-slide skills-item"><p>React</p></li>
+          <li class="swiper-slide skills-item"><p>Node.js</p></li>
+          <li class="swiper-slide skills-item"><p>React Native</p></li>
+          <li class="swiper-slide skills-item"><p>Soft skills</p></li>
+          <li class="swiper-slide skills-item"><p>HTML/CSS</p></li>
+          <li class="swiper-slide skills-item"><p>JavaScript</p></li>
+          <li class="swiper-slide skills-item"><p>React</p></li>
+          <li class="swiper-slide skills-item"><p>Node.js</p></li>
+          <li class="swiper-slide skills-item"><p>React Native</p></li>
+          <li class="swiper-slide skills-item"><p>Soft skills</p></li>
+        </ul>
+      </div>
+
+      <button
+        type="button"
+        class="skills-btn-next"
+        aria-label="Swipe button of my skills"
+      >
+        <svg class="skills-btn-icon" width="24" height="24">
+          <use href="/js_114_tymur-lykho/assets/sprite-Tj9KpC6Y.svg#arrow-narrow"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+      <section class="benefits section" id="benefits">
+  <div class="container benefits-container">
+    <h2 class="benefits-tittle">Benefits of working with me</h2>
+    <div class="content-wrapper">
+      <ul class="benefits-wrapper">
+        <li class="benefits-card">
+          <svg class="benefits-icon-card" width="48px" height="48px">
+            <use href="/js_114_tymur-lykho/assets/sprite-Tj9KpC6Y.svg#user"></use>
+          </svg>
+          <h3 class="card-tittle-text">Expertise</h3>
+          <p class="card-text">
+            As a highly experienced developer, I have deep knowledge of
+            programming and website development.
+          </p>
+        </li>
+        <li class="benefits-card">
+          <svg class="benefits-icon-card" width="48px" height="48px">
+            <use href="/js_114_tymur-lykho/assets/sprite-Tj9KpC6Y.svg#message-chat-circle"></use>
+          </svg>
+          <h3 class="card-tittle-text">Communication</h3>
+          <p class="card-text">
+            Understanding your needs and wants is my priority and I am always
+            open to discussions and corrections.
+          </p>
+        </li>
+        <li class="benefits-card">
+          <svg class="benefits-icon-card" width="48px" height="48px">
+            <use href="/js_114_tymur-lykho/assets/sprite-Tj9KpC6Y.svg#brush"></use>
+          </svg>
+          <h3 class="card-tittle-text">Art</h3>
+          <p class="card-text">
+            Thanks to my creative nature, I am ready to accept challenges and
+            help you bring your ideas to life.
+          </p>
+        </li>
+        <li class="benefits-card">
+          <svg class="benefits-icon-card" width="48px" height="48px">
+            <use href="/js_114_tymur-lykho/assets/sprite-Tj9KpC6Y.svg#hourglass"></use>
+          </svg>
+          <h3 class="card-tittle-text">Urgent execution</h3>
+          <p class="card-text">
+            I understand how important time is to you. Ready to work quickly and
+            efficiently, without reducing the quality of work.
+          </p>
+        </li>
+      </ul>
+      <a href="#work-together" class="benefits-link">Order the project</a>
+    </div>
+  </div>
+</section>
+
+      <section class="projects section" id="projects">
+  <div class="container projects-container">
+    <h2 class="section-title">projects</h2>
+    <div class="swiper-container">
+      <ul class="swiper-wrapper projects-list">
+        <li class="swiper-slide projects-item">
+          <div class="projects-item-wrapper">
+            <ul class="technologies-list">
+              <li class="technologies">#react</li>
+              <li class="technologies">#js</li>
+              <li class="technologies">#node js</li>
+              <li class="technologies">#git</li>
+            </ul>
+            <h3 class="description-text">
+              Programming Across Borders: Ideas, Technologies, Innovations
+            </h3>
+            <a
+              class="projects-link"
+              href="https://github.com/tymur-lykho/CodeCrafters-project"
+              target="_blank"
+              >See project</a
+            >
+          </div>
+          <div class="projects-items-picture">
+            <picture>
+              <source
+                media="(min-width: 768px )"
+                srcset="/js_114_tymur-lykho/assets/slide1tab@1x-UCXiOfqu.webp 1x, /js_114_tymur-lykho/assets/slide1tab@2x-D_qfhStO.webp 2x"
+              />
+              <source
+                media="(max-width: 767px )"
+                srcset="/js_114_tymur-lykho/assets/slide1mob@1x-CLhEbeqb.webp 1x, /js_114_tymur-lykho/assets/slide1mob@2x-BRBAWbMi.webp 2x"
+              />
+              <img
+                class="projects-items-img"
+                src="/js_114_tymur-lykho/assets/slide1mob@1x-CLhEbeqb.webp"
+                srcset="/js_114_tymur-lykho/assets/slide1mob@1x-CLhEbeqb.webp 1x, /js_114_tymur-lykho/assets/slide1mob@2x-BRBAWbMi.webp 2x"
+                alt="example book app"
+                width="614"
+                height="385"
+              />
+            </picture>
+          </div>
+        </li>
+
+        <li class="swiper-slide projects-item">
+          <div class="projects-item-wrapper">
+            <ul class="technologies-list">
+              <li class="technologies">#react</li>
+              <li class="technologies">#js</li>
+              <li class="technologies">#node js</li>
+              <li class="technologies">#git</li>
+            </ul>
+            <h3 class="description-text">
+              Programming Across Borders: Ideas, Technologies, Innovations
+            </h3>
+            <a
+              class="projects-link"
+              href="https://github.com/tymur-lykho/CodeCrafters-project"
+              target="_blank"
+              >See project</a
+            >
+          </div>
+          <div class="projects-items-picture">
+            <picture>
+              <source
+                media="(min-width: 768px )"
+                srcset="/js_114_tymur-lykho/assets/slide2tab@1x-CmVMwNmu.webp 1x, /js_114_tymur-lykho/assets/slide2tab@2x-DmPXQqNk.webp 2x"
+              />
+              <source
+                media="(max-width: 767px )"
+                srcset="/js_114_tymur-lykho/assets/slide2mob@1x-BEY1_BDG.webp 1x, /js_114_tymur-lykho/assets/slide2mob@2x-BW_zJBWq.webp 2x"
+              />
+              <img
+                class="projects-items-img"
+                src="/js_114_tymur-lykho/assets/slide2mob@1x-BEY1_BDG.webp"
+                srcset="/js_114_tymur-lykho/assets/slide2mob@1x-BEY1_BDG.webp 1x, /js_114_tymur-lykho/assets/slide2mob@2x-BW_zJBWq.webp 2x"
+                alt="example book app"
+                width="614"
+                height="385"
+              />
+            </picture>
+          </div>
+        </li>
+
+        <li class="swiper-slide projects-item">
+          <div class="projects-item-wrapper">
+            <ul class="technologies-list">
+              <li class="technologies">#react</li>
+              <li class="technologies">#js</li>
+              <li class="technologies">#node js</li>
+              <li class="technologies">#git</li>
+            </ul>
+            <h3 class="description-text">
+              Programming Across Borders: Ideas, Technologies, Innovations
+            </h3>
+            <a
+              class="projects-link"
+              href="https://github.com/tymur-lykho/CodeCrafters-project"
+              target="_blank"
+              >See project</a
+            >
+          </div>
+          <div class="projects-items-picture">
+            <picture>
+              <source
+                media="(min-width: 768px )"
+                srcset="/js_114_tymur-lykho/assets/slide3tab@1x-DAfCP1pp.webp 1x, /js_114_tymur-lykho/assets/slide3tab@2x-CuA5fxD8.webp 2x"
+              />
+              <source
+                media="(max-width: 767px )"
+                srcset="data:image/webp;base64,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 1x, /js_114_tymur-lykho/assets/slide3mob@2x-9Ysy34u9.webp 2x"
+              />
+              <img
+                class="projects-items-img"
+                src="data:image/webp;base64,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"
+                srcset="data:image/webp;base64,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 1x, /js_114_tymur-lykho/assets/slide3mob@2x-9Ysy34u9.webp 2x"
+                alt="example book app"
+                width="614"
+                height="385"
+              />
+            </picture>
+          </div>
+        </li>
+      </ul>
+      <div class="arrow-btn-wrapper">
+        <button
+          type="button"
+          class="arrow-btn arrow-btn-left"
+          aria-label="Swipe button previous slide"
+        >
+          <svg class="projects-icon" width="25" height="24">
+            <use href="/js_114_tymur-lykho/assets/sprite-Tj9KpC6Y.svg#arrow-narrow"></use>
+          </svg>
+        </button>
+        <button
+          type="button"
+          class="arrow-btn arrow-btn-right"
+          aria-label="Swipe button next slide"
+        >
+          <svg class="projects-icon" width="25" height="24">
+            <use href="/js_114_tymur-lykho/assets/sprite-Tj9KpC6Y.svg#arrow-narrow"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section" id="faq-section">
+  <div class="container">
+    <h2 class="title-faq">FAQ</h2>
+    <ul class="accordion-container faq" id="faq-accordion">
+      <li class="ac">
+        <div class="ac-header ac-trigger">
+          <h3 class="ac-title-faq">
+            What programming languages ​​are most often used in your project?
+          </h3>
+          <button
+            class="ac-trigger ac-btn-faq"
+            type="button"
+            aria-label="Open answer"
+          >
+            <svg class="ac-icon" width="20" height="20">
+              <use href="/js_114_tymur-lykho/assets/sprite-Tj9KpC6Y.svg#simple-arrow"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel">
+          <p class="accordion-content-faq">
+            In the field of web development, there are various technologies and
+            programming languages. Typically, this includes a combination of
+            frontend (client side) and backend (server side) languages.
+          </p>
+        </div>
+      </li>
+      <li class="ac">
+        <div class="ac-header ac-trigger">
+          <h3 class="ac-title-faq">What are the deadlines for the project?</h3>
+          <button
+            class="ac-trigger ac-btn-faq"
+            type="button"
+            aria-label="Open answer"
+          >
+            <svg class="ac-icon" width="20" height="20">
+              <use href="/js_114_tymur-lykho/assets/sprite-Tj9KpC6Y.svg#simple-arrow"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel">
+          <p class="accordion-content-faq">
+            The terms of project implementation depend to a large extent on a
+            number of factors, such as the scope of the project, its complexity,
+            and the availability of resources. Determining exact deadlines is a
+            difficult task, and it usually occurs during the planning phase of
+            the project.
+          </p>
+        </div>
+      </li>
+      <li class="ac">
+        <div class="ac-header ac-trigger">
+          <h3 class="ac-title-faq">What payment methods do you accept?</h3>
+          <button
+            class="ac-trigger ac-btn-faq"
+            type="button"
+            aria-label="Open answer"
+          >
+            <svg class="ac-icon" width="20" height="20">
+              <use href="/js_114_tymur-lykho/assets/sprite-Tj9KpC6Y.svg#simple-arrow"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel">
+          <p class="accordion-content-faq">
+            Payment through credit and debit cards such as Visa, MasterCard,
+            specialized electronic payment systems such as PayPal, as well as
+            payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+          </p>
+        </div>
+      </li>
+      <li class="ac">
+        <div class="ac-header ac-trigger">
+          <h3 class="ac-title-faq">How can I contact you?</h3>
+          <button
+            class="ac-trigger ac-btn-faq"
+            type="button"
+            aria-label="Open answer"
+          >
+            <svg class="ac-icon" width="20" height="20">
+              <use href="/js_114_tymur-lykho/assets/sprite-Tj9KpC6Y.svg#simple-arrow"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel">
+          <p class="accordion-content-faq">
+            In the field of web development, there are various technologies and
+            programming languages. Typically, this includes a combination of
+            frontend (client side) and backend (server side) languages.
+          </p>
+        </div>
+      </li>
+      <li class="ac">
+        <div class="ac-header ac-trigger">
+          <h3 class="ac-title-faq">Do you provide advice or support?</h3>
+          <button
+            class="ac-trigger ac-btn-faq"
+            type="button"
+            aria-label="Open answer"
+          >
+            <svg class="ac-icon" width="20" height="20">
+              <use href="/js_114_tymur-lykho/assets/sprite-Tj9KpC6Y.svg#simple-arrow"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel">
+          <p class="accordion-content-faq">
+            The terms of project implementation depend to a large extent on a
+            number of factors, such as the scope of the project, its complexity,
+            and the availability of resources. Determining exact deadlines is a
+            difficult task, and it usually occurs during the planning phase of
+            the project.
+          </p>
+        </div>
+      </li>
+      <li class="ac">
+        <div class="ac-header ac-trigger">
+          <h3 class="ac-title-faq">
+            What does the process of developing a software <br />
+            product look like from idea to implementation?
+          </h3>
+          <button
+            class="ac-trigger ac-btn-faq"
+            type="button"
+            aria-label="Open answer"
+          >
+            <svg class="ac-icon" width="20" height="20">
+              <use href="/js_114_tymur-lykho/assets/sprite-Tj9KpC6Y.svg#simple-arrow"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel">
+          <p class="accordion-content-faq">
+            Payment through credit and debit cards such as Visa, MasterCard,
+            specialized electronic payment systems such as PayPal, as well as
+            payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="covers section">
+  <div class="container covers-container">
+    <h2 class="visually-hidden">Covers</h2>
+    <div class="covers-box">
+      <ul class="covers-list">
+        <li class="covers-item">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="/js_114_tymur-lykho/assets/1@1x-BufXq5eD.webp 1x, /js_114_tymur-lykho/assets/1@2x-DjKsdOfq.webp 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/js_114_tymur-lykho/assets/1mob@1x-aksiq7u3.webp 1x, /js_114_tymur-lykho/assets/1mob@2x-CyyhrUeP.webp 2x"
+            />
+            <img
+              class="covers-img"
+              src="/js_114_tymur-lykho/assets/1mob@1x-aksiq7u3.webp"
+              width="282"
+              height="163"
+              alt="zaply"
+            />
+          </picture>
+        </li>
+        <li class="covers-item">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="/js_114_tymur-lykho/assets/2@1x-CZfnM6F0.webp 1x, /js_114_tymur-lykho/assets/2@2x-CKm_4CWi.webp 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/js_114_tymur-lykho/assets/2mob@1x-BsvrNFFi.webp 1x, /js_114_tymur-lykho/assets/2mob@2x-DWUFiEuH.webp 2x"
+            />
+            <img
+              class="covers-img"
+              src="/js_114_tymur-lykho/assets/2mob@1x-BsvrNFFi.webp"
+              width="282"
+              height="163"
+              alt="nexlo"
+            />
+          </picture>
+        </li>
+        <li class="covers-item">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="/js_114_tymur-lykho/assets/3@1x-CTBbDYhT.webp 1x, /js_114_tymur-lykho/assets/3@2x-Bl-h9ZUy.webp 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/js_114_tymur-lykho/assets/3mob@1x-CYRAzbfO.webp 1x, /js_114_tymur-lykho/assets/3mob@2x-D9u0HgV0.webp 2x"
+            />
+            <img
+              class="covers-img"
+              src="/js_114_tymur-lykho/assets/3mob@1x-CYRAzbfO.webp"
+              width="282"
+              height="163"
+              alt="brivix"
+            />
+          </picture>
+        </li>
+        <li class="covers-item">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="/js_114_tymur-lykho/assets/4@1x-B_kstrYL.webp 1x, /js_114_tymur-lykho/assets/4@2x-CMwWD8mm.webp 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/js_114_tymur-lykho/assets/4mob@1x-CSDGXzEN.webp 1x, /js_114_tymur-lykho/assets/4mob@2x-DznqIcoy.webp 2x"
+            />
+            <img
+              class="covers-img"
+              src="/js_114_tymur-lykho/assets/4mob@1x-CSDGXzEN.webp"
+              width="282"
+              height="163"
+              alt="green-harvest"
+            />
+          </picture>
+        </li>
+        <li class="covers-item">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="/js_114_tymur-lykho/assets/5@1x-BRLUkjNC.webp 1x, /js_114_tymur-lykho/assets/5@2x-BFrQG0fI.webp 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/js_114_tymur-lykho/assets/5mob@1x-CULPyaV3.webp 1x, /js_114_tymur-lykho/assets/5mob@2x-CMJgrClx.webp 2x"
+            />
+            <img
+              class="covers-img"
+              src="/js_114_tymur-lykho/assets/5mob@1x-CULPyaV3.webp"
+              width="282"
+              height="163"
+              alt="voksy"
+            />
+          </picture>
+        </li>
+      </ul>
+      <ul class="covers-list">
+        <li class="covers-item">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="/js_114_tymur-lykho/assets/1@1x-BufXq5eD.webp 1x, /js_114_tymur-lykho/assets/1@2x-DjKsdOfq.webp 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/js_114_tymur-lykho/assets/1mob@1x-aksiq7u3.webp 1x, /js_114_tymur-lykho/assets/1mob@2x-CyyhrUeP.webp 2x"
+            />
+            <img
+              class="covers-img"
+              src="/js_114_tymur-lykho/assets/1mob@1x-aksiq7u3.webp"
+              width="282"
+              height="163"
+              alt="zaply"
+            />
+          </picture>
+        </li>
+        <li class="covers-item">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="/js_114_tymur-lykho/assets/2@1x-CZfnM6F0.webp 1x, /js_114_tymur-lykho/assets/2@2x-CKm_4CWi.webp 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/js_114_tymur-lykho/assets/2mob@1x-BsvrNFFi.webp 1x, /js_114_tymur-lykho/assets/2mob@2x-DWUFiEuH.webp 2x"
+            />
+            <img
+              class="covers-img"
+              src="/js_114_tymur-lykho/assets/2mob@1x-BsvrNFFi.webp"
+              width="282"
+              height="163"
+              alt="nexlo"
+            />
+          </picture>
+        </li>
+        <li class="covers-item">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="/js_114_tymur-lykho/assets/1@1x-BufXq5eD.webp 1x, /js_114_tymur-lykho/assets/1@2x-DjKsdOfq.webp 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/js_114_tymur-lykho/assets/1mob@1x-aksiq7u3.webp 1x, /js_114_tymur-lykho/assets/1mob@2x-CyyhrUeP.webp 2x"
+            />
+            <img
+              class="covers-img"
+              src="/js_114_tymur-lykho/assets/1mob@1x-aksiq7u3.webp"
+              width="282"
+              height="163"
+              alt="zaply"
+            />
+          </picture>
+        </li>
+        <li class="covers-item">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="/js_114_tymur-lykho/assets/2@1x-CZfnM6F0.webp 1x, /js_114_tymur-lykho/assets/2@2x-CKm_4CWi.webp 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/js_114_tymur-lykho/assets/2mob@1x-BsvrNFFi.webp 1x, /js_114_tymur-lykho/assets/2mob@2x-DWUFiEuH.webp 2x"
+            />
+            <img
+              class="covers-img"
+              src="/js_114_tymur-lykho/assets/2mob@1x-BsvrNFFi.webp"
+              width="282"
+              height="163"
+              alt="nexlo"
+            />
+          </picture>
+        </li>
+        <li class="covers-item">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="/js_114_tymur-lykho/assets/1@1x-BufXq5eD.webp 1x, /js_114_tymur-lykho/assets/1@2x-DjKsdOfq.webp 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/js_114_tymur-lykho/assets/1mob@1x-aksiq7u3.webp 1x, /js_114_tymur-lykho/assets/1mob@2x-CyyhrUeP.webp 2x"
+            />
+            <img
+              class="covers-img"
+              src="/js_114_tymur-lykho/assets/1mob@1x-aksiq7u3.webp"
+              width="282"
+              height="163"
+              alt="zaply"
+            />
+          </picture>
+        </li>
+      </ul>
+      <ul class="covers-list">
+        <li class="covers-item">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="/js_114_tymur-lykho/assets/5@1x-BRLUkjNC.webp 1x, /js_114_tymur-lykho/assets/5@2x-BFrQG0fI.webp 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/js_114_tymur-lykho/assets/5mob@1x-CULPyaV3.webp 1x, /js_114_tymur-lykho/assets/5mob@2x-CMJgrClx.webp 2x"
+            />
+            <img
+              class="covers-img"
+              src="/js_114_tymur-lykho/assets/5mob@1x-CULPyaV3.webp"
+              width="282"
+              height="163"
+              alt="voksy"
+            />
+          </picture>
+        </li>
+        <li class="covers-item">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="/js_114_tymur-lykho/assets/6@1x-BlYzaiS-.webp 1x, /js_114_tymur-lykho/assets/6@2x-B6uQBGhG.webp 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/js_114_tymur-lykho/assets/6mob@1x-Bobo-ynA.webp 1x, /js_114_tymur-lykho/assets/6mob@2x-BxiwzBr8.webp 2x"
+            />
+            <img
+              class="covers-img"
+              src="/js_114_tymur-lykho/assets/6mob@1x-Bobo-ynA.webp"
+              width="282"
+              height="163"
+              alt="trexo"
+            />
+          </picture>
+        </li>
+        <li class="covers-item">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="/js_114_tymur-lykho/assets/3@1x-CTBbDYhT.webp 1x, /js_114_tymur-lykho/assets/3@2x-Bl-h9ZUy.webp 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/js_114_tymur-lykho/assets/3mob@1x-CYRAzbfO.webp 1x, /js_114_tymur-lykho/assets/3mob@2x-D9u0HgV0.webp 2x"
+            />
+            <img
+              class="covers-img"
+              src="/js_114_tymur-lykho/assets/3mob@1x-CYRAzbfO.webp"
+              width="282"
+              height="163"
+              alt="brivix"
+            />
+          </picture>
+        </li>
+        <li class="covers-item">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="/js_114_tymur-lykho/assets/5@1x-BRLUkjNC.webp 1x, /js_114_tymur-lykho/assets/5@2x-BFrQG0fI.webp 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/js_114_tymur-lykho/assets/5mob@1x-CULPyaV3.webp 1x, /js_114_tymur-lykho/assets/5mob@2x-CMJgrClx.webp 2x"
+            />
+            <img
+              class="covers-img"
+              src="/js_114_tymur-lykho/assets/5mob@1x-CULPyaV3.webp"
+              width="282"
+              height="163"
+              alt="voksy"
+            />
+          </picture>
+        </li>
+        <li class="covers-item">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="/js_114_tymur-lykho/assets/6@1x-BlYzaiS-.webp 1x, /js_114_tymur-lykho/assets/6@2x-B6uQBGhG.webp 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/js_114_tymur-lykho/assets/6mob@1x-Bobo-ynA.webp 1x, /js_114_tymur-lykho/assets/6mob@2x-BxiwzBr8.webp 2x"
+            />
+            <img
+              class="covers-img"
+              src="/js_114_tymur-lykho/assets/6mob@1x-Bobo-ynA.webp"
+              width="282"
+              height="163"
+              alt="trexo"
+            />
+          </picture>
+        </li>
+      </ul>
+      <ul class="covers-list">
+        <li class="covers-item">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="/js_114_tymur-lykho/assets/4@1x-B_kstrYL.webp 1x, /js_114_tymur-lykho/assets/4@2x-CMwWD8mm.webp 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/js_114_tymur-lykho/assets/4mob@1x-CSDGXzEN.webp 1x, /js_114_tymur-lykho/assets/4mob@2x-DznqIcoy.webp 2x"
+            />
+            <img
+              class="covers-img"
+              src="/js_114_tymur-lykho/assets/4mob@1x-CSDGXzEN.webp"
+              width="282"
+              height="163"
+              alt="green-harvest"
+            />
+          </picture>
+        </li>
+        <li class="covers-item">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="/js_114_tymur-lykho/assets/7@1x-Cz5uDoQE.webp 1x, /js_114_tymur-lykho/assets/7@2x-B69f-0LX.webp 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/js_114_tymur-lykho/assets/7mob@1x-BoGnWrYW.webp 1x, /js_114_tymur-lykho/assets/7mob@2x-DmdZ4wsq.webp 2x"
+            />
+            <img
+              class="covers-img"
+              src="/js_114_tymur-lykho/assets/7mob@1x-BoGnWrYW.webp"
+              width="282"
+              height="163"
+              alt="qubix"
+            />
+          </picture>
+        </li>
+        <li class="covers-item">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="/js_114_tymur-lykho/assets/8@1x-Da9sq5kO.webp 1x, /js_114_tymur-lykho/assets/8@2x-CJadPWXO.webp 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/js_114_tymur-lykho/assets/8mob@1x-CaDKj-tX.webp 1x, /js_114_tymur-lykho/assets/8mob@2x-CF6UAeWH.webp 2x"
+            />
+            <img
+              class="covers-img"
+              src="/js_114_tymur-lykho/assets/8mob@1x-CaDKj-tX.webp"
+              width="282"
+              height="163"
+              alt="zylar"
+            />
+          </picture>
+        </li>
+        <li class="covers-item">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="/js_114_tymur-lykho/assets/4@1x-B_kstrYL.webp 1x, /js_114_tymur-lykho/assets/4@2x-CMwWD8mm.webp 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/js_114_tymur-lykho/assets/4mob@1x-CSDGXzEN.webp 1x, /js_114_tymur-lykho/assets/4mob@2x-DznqIcoy.webp 2x"
+            />
+            <img
+              class="covers-img"
+              src="/js_114_tymur-lykho/assets/4mob@1x-CSDGXzEN.webp"
+              width="282"
+              height="163"
+              alt="green-harvest"
+            />
+          </picture>
+        </li>
+        <li class="covers-item">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="/js_114_tymur-lykho/assets/7@1x-Cz5uDoQE.webp 1x, /js_114_tymur-lykho/assets/7@2x-B69f-0LX.webp 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/js_114_tymur-lykho/assets/7mob@1x-BoGnWrYW.webp 1x, /js_114_tymur-lykho/assets/7mob@2x-DmdZ4wsq.webp 2x"
+            />
+            <img
+              class="covers-img"
+              src="/js_114_tymur-lykho/assets/7mob@1x-BoGnWrYW.webp"
+              width="282"
+              height="163"
+              alt="qubix"
+            />
+          </picture>
+        </li>
+      </ul>
+      <ul class="covers-list">
+        <li class="covers-item">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="/js_114_tymur-lykho/assets/6@1x-BlYzaiS-.webp 1x, /js_114_tymur-lykho/assets/6@2x-B6uQBGhG.webp 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/js_114_tymur-lykho/assets/6mob@1x-Bobo-ynA.webp 1x, /js_114_tymur-lykho/assets/6mob@2x-BxiwzBr8.webp 2x"
+            />
+            <img
+              class="covers-img"
+              src="/js_114_tymur-lykho/assets/6mob@1x-Bobo-ynA.webp"
+              width="282"
+              height="163"
+              alt="trexo"
+            />
+          </picture>
+        </li>
+        <li class="covers-item">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="/js_114_tymur-lykho/assets/7@1x-Cz5uDoQE.webp 1x, /js_114_tymur-lykho/assets/7@2x-B69f-0LX.webp 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/js_114_tymur-lykho/assets/7mob@1x-BoGnWrYW.webp 1x, /js_114_tymur-lykho/assets/7mob@2x-DmdZ4wsq.webp 2x"
+            />
+            <img
+              class="covers-img"
+              src="/js_114_tymur-lykho/assets/7mob@1x-BoGnWrYW.webp"
+              width="282"
+              height="163"
+              alt="qubix"
+            />
+          </picture>
+        </li>
+        <li class="covers-item">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="/js_114_tymur-lykho/assets/8@1x-Da9sq5kO.webp 1x, /js_114_tymur-lykho/assets/8@2x-CJadPWXO.webp 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/js_114_tymur-lykho/assets/8mob@1x-CaDKj-tX.webp 1x, /js_114_tymur-lykho/assets/8mob@2x-CF6UAeWH.webp 2x"
+            />
+            <img
+              class="covers-img"
+              src="/js_114_tymur-lykho/assets/8mob@1x-CaDKj-tX.webp"
+              width="282"
+              height="163"
+              alt="zylar"
+            />
+          </picture>
+        </li>
+        <li class="covers-item">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="/js_114_tymur-lykho/assets/9@1x-D9VylVJK.webp 1x, /js_114_tymur-lykho/assets/9@2x-BK0tBYnU.webp 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/js_114_tymur-lykho/assets/9mob@1x-BEcKzo4c.webp 1x, /js_114_tymur-lykho/assets/9mob@2x-IcgGoyr-.webp 2x"
+            />
+            <img
+              class="covers-img"
+              src="/js_114_tymur-lykho/assets/9mob@1x-BEcKzo4c.webp"
+              width="282"
+              height="163"
+              alt="fynzo"
+            />
+          </picture>
+        </li>
+        <li class="covers-item">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="/js_114_tymur-lykho/assets/10@1x-BTXRkHj1.webp 1x, /js_114_tymur-lykho/assets/10@2x-yK7zJmT1.webp 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/js_114_tymur-lykho/assets/10mob@1x-CtNHFfiP.webp 1x, /js_114_tymur-lykho/assets/10mob@2x-BqdxwuyZ.webp 2x"
+            />
+            <img
+              class="covers-img"
+              src="/js_114_tymur-lykho/assets/10mob@1x-CtNHFfiP.webp"
+              width="282"
+              height="163"
+              alt="drovia"
+            />
+          </picture>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="reviews section" id="reviews-section">
+  <div class="container reviews-container">
+    <h2 class="title">reviews</h2>
+    <div class="swiper swiper-reviews">
+      <ul class="swiper-wrapper reviews-list"></ul>
+      <div class="reviews-btn-container">
+        <button
+          type="button"
+          class="arrow-btn reviews-btn-prev"
+          aria-label="Swipe button previous review"
+        >
+          <svg class="projects-icon" width="24" height="24">
+            <use href="/js_114_tymur-lykho/assets/sprite-Tj9KpC6Y.svg#arrow-narrow"></use>
+          </svg>
+        </button>
+        <button
+          type="button"
+          class="arrow-btn reviews-btn-next"
+          aria-label="Swipe button next review"
+        >
+          <svg class="icon-arrow-right" width="24" height="24">
+            <use href="/js_114_tymur-lykho/assets/sprite-Tj9KpC6Y.svg#arrow-narrow"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+
+    <footer class="work-together" id="work-together">
+  <div class="footer-container container">
+    <h2 class="footer-title">
+      Let’s <span class="accent-word">work</span> together
+    </h2>
+    <form method="post" class="footer-form" id="js-footer-form">
+      <div class="input-wrap">
+        <label class="form-label email-label" for="input-email">
+          <span class="visually-hidden">Input your e-mail</span>
+          <input
+            class="form-input"
+            type="email"
+            name="input-email"
+            id="input-email"
+            placeholder="clients@gmail.com"
+            pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+            required
+          />
+        </label>
+        <label class="form-label" for="input-comment">
+          <span class="visually-hidden">Input your comment</span>
+          <input
+            type="text"
+            class="form-input"
+            name="input-comment"
+            id="input-comment"
+            placeholder="comments"
+            required
+          />
+        </label>
+      </div>
+      <button type="submit" class="form-btn">Send</button>
+    </form>
+    <ul class="footer-contact-list">
+      <li>
+        <a class="contact-link" href="mailto:lloydjefferson@gmail.com">
+          lloydjefferson@gmail.com
+        </a>
+      </li>
+      <li>
+        <a class="contact-link" href="tel:+3801111111111">+380 11 1111 11 11</a>
+      </li>
+    </ul>
+  </div>
+</footer>
+
+    <div class="backdrop">
+  <div class="modal-window">
+    <button class="close-btn" type="button">
+      <svg class="close-icon" width="22" height="22">
+        <use href="/js_114_tymur-lykho/assets/sprite-Tj9KpC6Y.svg#close-x"></use>
+      </svg>
+    </button>
+    <h2 class="modal-title">Thank you!</h2>
+    <p class="modal-text">(``,)</p>
+  </div>
+</div>
+
+    <!-- Mobail-menu  -->
+
+<div class="mobail-backdrop">
+  <div class="mobile-menu">
+    <button class="close-btn" type="button" aria-label="Close button">
+      <svg class="icon icon-x close-icon" width="28" height="28">
+        <use href="/js_114_tymur-lykho/assets/sprite-Tj9KpC6Y.svg#close-x"></use>
+      </svg>
+    </button>
+
+    <ul class="mobail-menu-list">
+      <li class="mobail-menu-list-item">
+        <a href="#about-me" class="mobail-list-item-link decoration"
+          >About me</a
+        >
+      </li>
+
+      <li class="menu-list-item">
+        <a href="#benefits" class="mobail-list-item-link decoration"
+          >Benefits</a
+        >
+      </li>
+
+      <li class="menu-list-item">
+        <a href="#projects" class="mobail-list-item-link decoration"
+          >Projects</a
+        >
+      </li>
+
+      <li class="menu-list-item">
+        <a href="#faq-section" class="mobail-list-item-link decoration">FAQ</a>
+      </li>
+    </ul>
+
+    <a class="mobail-order-btn" href="#work-together">Order the project</a>
+  </div>
+</div>
+
+
+  </body>
+</html>
