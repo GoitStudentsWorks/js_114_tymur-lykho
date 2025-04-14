@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/CodeCrafters-project/",
+    "build": "vite build --base=/js_114_tymur-lykho/",
     "preview": "vite preview"
   },
   "devDependencies": {
